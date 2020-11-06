@@ -15,6 +15,7 @@
   "devDependencies": {
     "electron": "^2.0.18",
     "electron-packager": "^9.1.0",
+    "electron-rebuild": "^1.11.0",
     "mocha": "^3.5.3",
     "spectron": "^3.8.0"
   },
