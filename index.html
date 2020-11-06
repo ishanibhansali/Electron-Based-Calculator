@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="./style.css">
+
+<body>
+ 
+    <div id="form" class="form-wrapper">
+
+        <h1 id="title">Basic Calculator</h1>
+
+        <label class="text">
+            <span>First Number:</span>
+            <div class="input-wrapper">
+                <input id="num1" /> 
+            </div>
+        </label>
+    
+        <label class="text">
+            <span>Second Number:</span>
+            <div class="input-wrapper">
+                <input id="num2" /> 
+            </div>
+        </label>
+
+        <button class="button" id="reset" type="button" onclick="resetPage()">Reset</button>
+        <button class="button" id="add" type="button">Add</button>
+        
+        <label>
+            <div class="result">
+                <div id="result"></div>
+            </div>
+        </label>
+
+        <label>
+            <p>For this application, NodeJS <script>document.write(process.versions.node)</script>, 
+                Electron <script>document.write(process.versions.electron)</script>, and Python 3.7 are used. For testing, Spectron and Mocha are used.</p>
+            <p>The application can handle integers, floating-point numbers, big-integers, and scientific notation (Eg.: 1e+3) to output the sum of two numbers.</p>
+            <p>Bad input in the form of alphabets, symbols, and white spaces between digits are also handled.</p>
+        </label>
+
+    </div>  
+
+  <script>
+    function resetPage() {
+      location.reload();
+    }
+  </script>
+
+</body>
+
+<script>
+  require('./renderer.js')
+</script>
+
+</html>

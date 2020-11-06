@@ -1,0 +1,24 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Electron based basic calculator.",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "mocha"
+  },
+  "author": "Ishani Bhansali",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^2.0.18",
+    "electron-packager": "^9.1.0",
+    "mocha": "^3.5.3",
+    "spectron": "^3.8.0"
+  },
+  "dependencies": {
+    "zerorpc": "^0.9.8"
+  }
+}

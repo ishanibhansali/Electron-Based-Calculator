@@ -1,0 +1,2 @@
+pyinstaller==4.0
+zerorpc==0.6.3

@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+    background-color: #373431;
+    font-family: sans-serif;
+    color: #A8A7A8;
+    overflow: hidden;
+    position: relative;
+}
+  
+.form-wrapper {
+    float:left;
+    width:100%;
+    max-width:40.000em;
+    background:#373431;
+    overflow:hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  
+}
+.form-wrapper label {
+    width:100%;
+    float:left;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.form-wrapper label span {
+    float:left;
+    width: 25%;
+    text-align:left;
+}
+.input-wrapper {
+    width:70%;
+    float:right;
+    padding:0 0.625em;
+  
+}
+.form-wrapper input{
+    width:100%;
+    padding:0.625em 0;
+    background-color: #444;
+    color: #fff;
+}
+.form-wrapper .text input {
+    width:98%;
+    padding-left: 1%; 
+    padding-right: 1%; 
+    background:#000;
+    background:rgba(0,0,0,0.16);
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3) inset, 0 1px rgba(255, 255, 255, 0.06);
+    border: 0 none;
+    border-radius: 3px;
+    color: #BBBBBB;
+    transition:background .2s;
+}
+.form-wrapper .text input:focus {
+    background:#000;
+    background:rgba(0,0,0,0.25);
+    color:#FFF;
+    outline: none;
+}
+.form-wrapper label .result {
+    color: #FE9000;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+}
+  
+.button{
+    width:100px;
+    float: right;
+    padding: 8px 15px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid currentColor;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FE9000;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+}
+.button:hover {
+    background-color: #FE9000;
+    border-color: #FE9000;
+    color: #FFF;
+}
